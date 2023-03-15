@@ -72,6 +72,6 @@ describe('preserveDecimal(n)', function() {
   })
 
   it('returns NaN as appropriate', function() {
-    expect(isNaN(preserveDecimal(string))).toEqual(true)
+    expect(isNaN(preserveDecimal("fjjhs"))).toEqual(true)
   })
 })
